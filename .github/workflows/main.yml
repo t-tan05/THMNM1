@@ -3,7 +3,7 @@ name: Deploy to InfinityFree
 on:
   push:
     branches:
-      - master  # đổi thành branch bạn đang dùng
+      - main  # đổi thành branch bạn đang dùng
 
 jobs:
   ftp-deploy:
