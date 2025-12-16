@@ -6,6 +6,4 @@
         echo $e->getMessage();
         exit();
     }
-
-    
 ?>

@@ -3,7 +3,7 @@ name: Deploy to InfinityFree
 on:
   push:
     branches:
-      - main  # đổi thành branch bạn đang dùng
+      - main
 
 jobs:
   ftp-deploy:
@@ -24,4 +24,6 @@ jobs:
           port: 21
           server-dir: /htdocs/
           local-dir: ./
+          exclude: |
+            **/config.php
           state-name: .ftp-deploy-sync-state.json

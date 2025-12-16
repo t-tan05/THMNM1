@@ -16,6 +16,7 @@
     <title>Document</title>
 </head>
 <body>
+    <h1>Trang sản phẩm</h1>
     <table border="1">
         <tr>
             <td>id</td>
